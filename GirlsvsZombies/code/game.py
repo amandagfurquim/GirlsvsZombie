@@ -16,7 +16,7 @@ class Game:
         while True:
             self.window.fill((0, 0, 0))
 
-            self.menu.blit_image()
+            self.menu.run()
 
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
